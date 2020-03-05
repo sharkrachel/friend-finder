@@ -26,6 +26,7 @@ module.exports = function (app) {
                 photo: dbFriends.photo,
                 totalDifference: totalDifference
             });
+           
         }
 
 
