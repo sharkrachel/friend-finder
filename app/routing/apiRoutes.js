@@ -29,7 +29,6 @@ module.exports = function (app) {
            
         }
 
-
         friends.push(newFriend);
         //loop through value of each survey question and compare each question to previous items in the array
         //find the difference for each question
@@ -39,7 +38,6 @@ module.exports = function (app) {
             return parseFloat(a.totalDifference) - parseFloat(b.totalDifference);
         });
         res.json(matchedFriend[0]);
-
 
     });
 

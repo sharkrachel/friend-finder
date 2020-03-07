@@ -1,8 +1,55 @@
 .main-container {
-    max-width: 500px;
+    max-width: 400px;
+    margin-left: 80px;
+}
+
+.home-container {
+    max-width: 400px;
     margin-left: 80px;
 }
 
 p {
     font-size: 18px;
+}
+
+.input-field {
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: -1rem;
+}
+
+h6 {
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.select-wrapper input.select-dropdown {
+    max-width: 400px;
+}
+
+.title {
+    font-size: 52px;
+}
+
+.instructions {
+    font-size: 28px;
+}
+
+.row {
+    margin-top: 15px;
+}
+
+.about-you {
+    text-align: center;
+    padding: 15px;
+}
+
+.survey-title {
+    text-align: center;
+}
+
+.questions {
+    margin-top: 40px;
+    margin-bottom: 40px;
 }

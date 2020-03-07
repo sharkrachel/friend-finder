@@ -5,7 +5,7 @@ var app = express();
 var PORT = 8080;
 
 //turn encrypted information into json and the result will be put in req.body
-app.use(express.urlencoded({ extended: true}));
+app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 app.use(express.static("./app/public"));
